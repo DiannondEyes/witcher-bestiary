@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="categories">
-        <item>Персонажи</item>
+        <item>Ведьмаки</item>
+        <item>Спутники Геральта</item>
+        <item>Крысы</item>
+        <item>Исторические личности</item>
+        <item>Маги</item>
+        <item>Эльфы</item>
+        <item>Другие персонажи</item>
+
         <item>Бестии</item>
         <item>Вампиры</item>
         <item>Водяные</item>
@@ -18,20 +25,78 @@
         <item>Проклятые, реликты</item>
         <item>Трупоеды</item>
         <item>Хищные растения</item>
-        <item>Другие</item>
+        <item>Другие монстры</item>
     </string-array>
-    <!--Персонажи-->
+    <!--Ведьмаки-->
     <string-array name="elements0">
-        <item>Ведьмаки</item>
-        <item>Спутники Геральта</item>
-        <item>Крысы</item>
-        <item>Исторические личности</item>
-        <item>Маги</item>
-        <item>Эльфы</item>
-        <item>Другие</item>
+        <item>Геральт</item>
+        <item>Весемир</item>
+        <item>Эскель</item>
+        <item>Ламберт</item>
+        <item>Койон</item>
     </string-array>
-    <!--Бестии-->
+    <!--Спутники Геральта-->
     <string-array name="elements1">
+        <item>Лютик</item>
+        <item>Эмиель Регис</item>
+        <item>Кагыр Маур Дыффин аэп Кеаллах</item>
+        <item>Мильва</item>
+        <item>Ангулема</item>
+    </string-array>
+    <!--Крысы-->
+    <string-array name="elements2">
+        <item>Гиселер</item>
+        <item>Искра</item>
+        <item>Кайлей</item>
+        <item>Рееф</item>
+        <item>Мистле</item>
+        <item>Ассе</item>
+        <item>Цирилла</item>
+    </string-array>
+    <!--Исторические личности-->
+    <string-array name="elements3">
+        <item>Фалька</item>
+        <item>Калантэ</item>
+        <item>Эмгыр вар Эмрейс</item>
+    </string-array>
+    <!--Маги-->
+    <string-array name="elements4">
+        <item>Йеннифэр</item>
+        <item>Трисс Меригольд</item>
+        <item>Риенс</item>
+        <item>Вильгефорц из Роггевеена</item>
+        <item>Филиппа Эйльхарт</item>
+        <item>Тиссая де Врие</item>
+        <item>Ассирэ вар Анагыд</item>
+        <item>Фрингилья Виго</item>
+        <item>Шеала де Тансервилль</item>
+        <item>Сабрина Глевиссиг</item>
+        <item>Доррегарай из Волле</item>
+    </string-array>
+    <!--Эльфы-->
+    <string-array name="elements5">
+        <item>Изенгрим Фаоильтиарна</item>
+        <item>Францеска Финдабаир</item>
+        <item>Аэлирэнн</item>
+        <item>Торувьель</item>
+        <item>Яевинн</item>
+        <item>Аваллак’х</item>
+        <item>Филавандрель</item>
+    </string-array>
+    <!--Другие персонажи-->
+    <string-array name="elements6">
+        <item>Ярпен Зигрин</item>
+        <item>Золтан Хивай</item>
+        <item>Принцесса Адда</item>
+        <item>Дийкстра</item>
+        <item>Лео Бонарт</item>
+        <item>Райла</item>
+        <item>Стефан Скеллен</item>
+        <item>Эсси Давен</item>
+    </string-array>
+
+    <!--Бестии-->
+    <string-array name="elements7">
         <item>Вепрь</item>
         <item>Волк</item>
         <item>Медведь</item>
@@ -39,7 +104,7 @@
         <item>Собака</item>
     </string-array>
     <!--Вампиры-->
-    <string-array name="elements2">
+    <string-array name="elements8">
         <item>Альп</item>
         <item>Брукса</item>
         <item>Высший вампир</item>
@@ -51,12 +116,12 @@
         <item>Экимма</item>
     </string-array>
     <!--Водяные-->
-    <string-array name="elements3">
+    <string-array name="elements9">
         <item>Воин-водяной</item>
         <item>Жрец-водяной</item>
     </string-array>
     <!--Гибриды-->
-    <string-array name="elements4">
+    <string-array name="elements10">
         <item>Гарпия</item>
         <item>Гиппоцерв</item>
         <item>Грифон</item>
@@ -69,18 +134,18 @@
         <item>Эриния</item>
     </string-array>
     <!--Гиганты-->
-    <string-array name="elements5">
+    <string-array name="elements11">
         <item>Гигаскорпион</item>
         <item>Кейран</item>
     </string-array>
     <!--Гуманоиды-->
-    <string-array name="elements6">
+    <string-array name="elements12">
         <item>Домовые</item>
         <item>Кильмулис</item>
         <item>Корред</item>
     </string-array>
     <!--Дракониды-->
-    <string-array name="elements7">
+    <string-array name="elements13">
         <item>Василиск</item>
         <item>Виверна</item>
         <item>Вилохвост</item>
@@ -92,7 +157,7 @@
         <item>Серебристый василиск</item>
     </string-array>
     <!--Духи стихий-->
-    <string-array name="elements8">
+    <string-array name="elements14">
         <item>Гаргулья</item>
         <item>Гончая Дикой Охоты</item>
         <item>Джин</item>
@@ -100,7 +165,7 @@
         <item>Элементаль Льда</item>
     </string-array>
     <!--Инсектоиды-->
-    <string-array name="elements9">
+    <string-array name="elements15">
         <item>Арахноморф</item>
         <item>Главоглаз</item>
         <item>Кикимора-рабочий</item>
@@ -113,7 +178,7 @@
         <item>Эндриага-трутень</item>
     </string-array>
     <!--Магические создания-->
-    <string-array name="elements10">
+    <string-array name="elements16">
         <item>Голем</item>
         <item>Кащей</item>
         <item>Химера</item>
@@ -121,7 +186,7 @@
         <item>Элементаль Огня</item>
     </string-array>
     <!--Мутанты-->
-    <string-array name="elements11">
+    <string-array name="elements17">
         <item>Мутант</item>
         <item>Мутант-зверь</item>
         <item>Мутант-убийца</item>
@@ -129,7 +194,7 @@
         <item>Старший Брат</item>
     </string-array>
     <!--Огры-->
-    <string-array name="elements12">
+    <string-array name="elements18">
         <item>Голиаф</item>
         <item>Ледяной Великан</item>
         <item>Ледяной тролль</item>
@@ -140,7 +205,7 @@
         <item>Циклоп</item>
     </string-array>
     <!--Призраки-->
-    <string-array name="elements13">
+    <string-array name="elements19">
         <item>Баньши</item>
         <item>Баргест</item>
         <item>Дикая охота</item>
@@ -155,7 +220,7 @@
         <item>Этерал</item>
     </string-array>
     <!--Проклятые, реликты-->
-    <string-array name="elements14">
+    <string-array name="elements20">
         <item>Агуара</item>
         <item>Берсерк</item>
         <item>Волколак</item>
@@ -176,7 +241,7 @@
         <item>Шарлей</item>
     </string-array>
     <!--Трупоеды-->
-    <string-array name="elements15">
+    <string-array name="elements21">
         <item>Ignis fatuus</item>
         <item>Альгуль</item>
         <item>Ветала</item>
@@ -196,12 +261,12 @@
         <item>Яга</item>
     </string-array>
     <!--Хищные растения-->
-    <string-array name="elements16">
+    <string-array name="elements22">
         <item>Археспора</item>
         <item>Эхинопс</item>
     </string-array>
-    <!--Другие-->
-    <string-array name="elements17">
+    <!--Другие монстры-->
+    <string-array name="elements23">
         <item>Дагон</item>
         <item>Песчаный червь</item>
         <item>Риггер</item>
