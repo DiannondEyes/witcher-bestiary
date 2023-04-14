@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Персонажи</item>
+        <item>Бестии</item>
+        <item>Вампиры</item>
+        <item>Водяные</item>
+        <item>Гибриды</item>
+        <item>Гиганты</item>
+        <item>Гуманоиды</item>
+        <item>Дракониды</item>
+        <item>Духи стихий</item>
+        <item>Инсектоиды</item>
+        <item>Магические создания</item>
+        <item>Мутанты</item>
+        <item>Огры</item>
+        <item>Призраки</item>
+        <item>Проклятые, реликты</item>
+        <item>Трупоеды</item>
+        <item>Хищные растения</item>
+        <item>Другие</item>
+    </string-array>
+    <!--Персонажи-->
+    <string-array name="elements0">
+        <item>Ведьмаки</item>
+        <item>Спутники Геральта</item>
+        <item>Крысы</item>
+        <item>Исторические личности</item>
+        <item>Маги</item>
+        <item>Эльфы</item>
+        <item>Другие</item>
+    </string-array>
+    <!--Бестии-->
+    <string-array name="elements1">
+        <item>Вепрь</item>
+        <item>Волк</item>
+        <item>Медведь</item>
+        <item>Пантера</item>
+        <item>Собака</item>
+    </string-array>
+    <!--Вампиры-->
+    <string-array name="elements2">
+        <item>Альп</item>
+        <item>Брукса</item>
+        <item>Высший вампир</item>
+        <item>Катакан</item>
+        <item>Носферат</item>
+        <item>Пиявка</item>
+        <item>Протофледер</item>
+        <item>Фледер</item>
+        <item>Экимма</item>
+    </string-array>
+    <!--Водяные-->
+    <string-array name="elements3">
+        <item>Воин-водяной</item>
+        <item>Жрец-водяной</item>
+    </string-array>
+    <!--Гибриды-->
+    <string-array name="elements4">
+        <item>Гарпия</item>
+        <item>Гиппоцерв</item>
+        <item>Грифон</item>
+        <item>Дракопаха</item>
+        <item>Мантихор</item>
+        <item>Мелюзина (Эхидна)</item>
+        <item>Опиник (Архигрифон)</item>
+        <item>Сирена</item>
+        <item>Суккуб</item>
+        <item>Эриния</item>
+    </string-array>
+    <!--Гиганты-->
+    <string-array name="elements5">
+        <item>Гигаскорпион</item>
+        <item>Кейран</item>
+    </string-array>
+    <!--Гуманоиды-->
+    <string-array name="elements6">
+        <item>Домовые</item>
+        <item>Кильмулис</item>
+        <item>Корред</item>
+    </string-array>
+    <!--Дракониды-->
+    <string-array name="elements7">
+        <item>Василиск</item>
+        <item>Виверна</item>
+        <item>Вилохвост</item>
+        <item>Дракон</item>
+        <item>Дракопаха</item>
+        <item>Кокатрикс (куролиск)</item>
+        <item>Королевская виверна</item>
+        <item>Ослизг</item>
+        <item>Серебристый василиск</item>
+    </string-array>
+    <!--Духи стихий-->
+    <string-array name="elements8">
+        <item>Гаргулья</item>
+        <item>Гончая Дикой Охоты</item>
+        <item>Джин</item>
+        <item>Хим</item>
+        <item>Элементаль Льда</item>
+    </string-array>
+    <!--Инсектоиды-->
+    <string-array name="elements9">
+        <item>Арахноморф</item>
+        <item>Главоглаз</item>
+        <item>Кикимора-рабочий</item>
+        <item>Кикимора-воин</item>
+        <item>Кикимора-королева</item>
+        <item>Сколопендроморф</item>
+        <item>Эндриага</item>
+        <item>Эндриага-воин</item>
+        <item>Эндриага-работница</item>
+        <item>Эндриага-трутень</item>
+    </string-array>
+    <!--Магические создания-->
+    <string-array name="elements10">
+        <item>Голем</item>
+        <item>Кащей</item>
+        <item>Химера</item>
+        <item>Элементаль Земли</item>
+        <item>Элементаль Огня</item>
+    </string-array>
+    <!--Мутанты-->
+    <string-array name="elements11">
+        <item>Мутант</item>
+        <item>Мутант-зверь</item>
+        <item>Мутант-убийца</item>
+        <item>Орденская гончая</item>
+        <item>Старший Брат</item>
+    </string-array>
+    <!--Огры-->
+    <string-array name="elements12">
+        <item>Голиаф</item>
+        <item>Ледяной Великан</item>
+        <item>Ледяной тролль</item>
+        <item>Накер</item>
+        <item>Скальный тролль</item>
+        <item>Тролль</item>
+        <item>Хагубман</item>
+        <item>Циклоп</item>
+    </string-array>
+    <!--Призраки-->
+    <string-array name="elements13">
+        <item>Баньши</item>
+        <item>Баргест</item>
+        <item>Дикая охота</item>
+        <item>Драуг</item>
+        <item>Драугир</item>
+        <item>Моровая дева</item>
+        <item>Пес-Призрак</item>
+        <item>Покаянник</item>
+        <item>Полуденница</item>
+        <item>Полуночница</item>
+        <item>Призрак</item>
+        <item>Этерал</item>
+    </string-array>
+    <!--Проклятые, реликты-->
+    <string-array name="elements14">
+        <item>Агуара</item>
+        <item>Берсерк</item>
+        <item>Волколак</item>
+        <item>Игоша</item>
+        <item>Стрыга</item>
+        <item>Ульфхединн</item>
+        <item>Бес</item>
+        <item>Божонтка (Прибожек)</item>
+        <item>Боровой</item>
+        <item>Гремлины</item>
+        <item>Допплер</item>
+        <item>Ключник</item>
+        <item>Леший</item>
+        <item>Мамун</item>
+        <item>Ревун</item>
+        <item>Сильван</item>
+        <item>Чёрт</item>
+        <item>Шарлей</item>
+    </string-array>
+    <!--Трупоеды-->
+    <string-array name="elements15">
+        <item>Ignis fatuus</item>
+        <item>Альгуль</item>
+        <item>Ветала</item>
+        <item>Вихт</item>
+        <item>Водная баба</item>
+        <item>Гаркаин</item>
+        <item>Гнилец</item>
+        <item>Гравйвер</item>
+        <item>Гуль</item>
+        <item>Кладбищенская баба</item>
+        <item>Плавун</item>
+        <item>Пятнистый Вихт</item>
+        <item>Туманник (Мгляк)</item>
+        <item>Утковол</item>
+        <item>Утопец</item>
+        <item>Цеметавр</item>
+        <item>Яга</item>
+    </string-array>
+    <!--Хищные растения-->
+    <string-array name="elements16">
+        <item>Археспора</item>
+        <item>Эхинопс</item>
+    </string-array>
+    <!--Другие-->
+    <string-array name="elements17">
+        <item>Дагон</item>
+        <item>Песчаный червь</item>
+        <item>Риггер</item>
+        <item>Черепоглав</item>
+        <item>Ифрит</item>
+        <item>Жагница</item>
+    </string-array>
+</resources>
