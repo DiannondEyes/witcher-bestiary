@@ -16,6 +16,6 @@ public class InfoActivity extends AppCompatActivity {
         String[] cat = getResources().getStringArray(getResources().getIdentifier("elements"+category, "array", getPackageName()));
         setTitle(cat[entity]);
         setContentView(R.layout.activity_info);
-        ((TextView)findViewById(R.id.descripton)).setText("Описание");
+        ((TextView)findViewById(R.id.descripton)).setText(category+"_"+entity);
     }
 }
