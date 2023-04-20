@@ -2,20 +2,33 @@ package com.mw.bestiarii;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-public class InfoActivity extends AppCompatActivity {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
+public class InfoActivity extends AppCompatActivity {
     @Override
+    @SuppressLint("DiscouragedApi")
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getIntent() == null || !getIntent().hasExtra("categoryId") || !getIntent().hasExtra("entityId")) finishAffinity();
         int category = getIntent().getIntExtra("categoryId", 0);
         int entity = getIntent().getIntExtra("entityId", 0);
-        String[] cat = getResources().getStringArray(getResources().getIdentifier("elements"+category, "array", getPackageName()));
-        setTitle(cat[entity]);
+        setTitle(getResources().getStringArray(getResources().getIdentifier("elements"+category, "array", getPackageName()))[entity] +" "+category+"_"+entity);
         setContentView(R.layout.activity_info);
-        ((TextView)findViewById(R.id.descripton)).setText(category+"_"+entity);
+        StringBuilder data = new StringBuilder();
+        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open(category+"_"+entity+".txt")))) {
+            String line;
+            while ((line = bufferedReader.readLine()) != null) data.append(line).append("\n");
+        } catch (IOException e) {((TextView)findViewById(R.id.descripton)).setText("Не удалось прочитать информацию из файла");}
+        ((TextView)findViewById(R.id.descripton)).setText(data.toString());
+        ((ImageView)findViewById(R.id.imageView)).setImageResource(getResources().getIdentifier("r"+category+"_"+entity, "drawable", getPackageName()));
+        // Не нашел картинки: Койон (0_4), Искра (2_1), Пиявка (8_5), Жрец-водяной (9_1),
+        // TODO: если надпись заходит за пределы экрана, она отображается не полностью.
+        // Остановился на: Гиганты -> Гигаскорпион (11_0)
     }
 }
