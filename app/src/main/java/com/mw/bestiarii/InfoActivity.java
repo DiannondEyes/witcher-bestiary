@@ -18,7 +18,7 @@ public class InfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         int category = getIntent().getIntExtra("categoryId", 0);
         int entity = getIntent().getIntExtra("entityId", 0);
-        setTitle(getResources().getStringArray(getResources().getIdentifier("elements"+category, "array", getPackageName()))[entity] +" "+category+"_"+entity);
+        setTitle(getResources().getStringArray(getResources().getIdentifier("elements"+category, "array", getPackageName()))[entity] +" "+category+"_"+entity+" - Бестиарий Ведьмака");
         setContentView(R.layout.activity_info);
         StringBuilder data = new StringBuilder();
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open(category+"_"+entity+".txt")))) {
@@ -27,8 +27,5 @@ public class InfoActivity extends AppCompatActivity {
         } catch (IOException e) {((TextView)findViewById(R.id.descripton)).setText("Не удалось прочитать информацию из файла");}
         ((TextView)findViewById(R.id.descripton)).setText(data.toString());
         ((ImageView)findViewById(R.id.imageView)).setImageResource(getResources().getIdentifier("r"+category+"_"+entity, "drawable", getPackageName()));
-        // Не нашел картинки: Койон (0_4), Искра (2_1), Пиявка (8_5), Жрец-водяной (9_1),
-        // TODO: если надпись заходит за пределы экрана, она отображается не полностью.
-        // Остановился на: Гиганты -> Гигаскорпион (11_0)
     }
 }
