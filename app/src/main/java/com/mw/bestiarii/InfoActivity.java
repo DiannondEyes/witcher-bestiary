@@ -18,7 +18,7 @@ public class InfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         int category = getIntent().getIntExtra("categoryId", 0);
         int entity = getIntent().getIntExtra("entityId", 0);
-        setTitle(getResources().getStringArray(getResources().getIdentifier("elements"+category, "array", getPackageName()))[entity] +" "+category+"_"+entity+" - Бестиарий Ведьмака");
+        setTitle(getResources().getStringArray(getResources().getIdentifier("elements"+category, "array", getPackageName()))[entity] +" — Бестиарий Ведьмака");
         setContentView(R.layout.activity_info);
         StringBuilder data = new StringBuilder();
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open(category+"_"+entity+".txt")))) {

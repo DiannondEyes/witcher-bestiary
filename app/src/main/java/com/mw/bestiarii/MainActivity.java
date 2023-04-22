@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ListView list = findViewById(R.id.listOfCategories);
         boolean isSecondary = getIntent() != null && getIntent().hasExtra("secondaryList");
         String[] categories = isSecondary ? getIntent().getStringArrayExtra("secondaryList") : getResources().getStringArray(R.array.categories);
-        if (isSecondary) setTitle(getResources().getStringArray(R.array.categories)[getIntent().getIntExtra("secondaryListId", 0)]+" - Бестиарий Ведьмака");
+        if (isSecondary) setTitle(getResources().getStringArray(R.array.categories)[getIntent().getIntExtra("secondaryListId", 0)]+" — Бестиарий Ведьмака");
 
         list.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, categories));
         list.setOnItemClickListener((parent, v, position, id) -> {
